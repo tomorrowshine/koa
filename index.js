@@ -40,7 +40,7 @@ const about= async (ctx, next) => {
 				resolve(results);
 			 });
 		})
-  		 ctx.response.body = data1;
+  	ctx.response.body = data1;
 }
 
 app.use(route.get('/', main));

@@ -12,11 +12,11 @@ var util = require('./util');
 // 
 
 var connection = mysql.createConnection({
-	host: 'test1267.db.58dns.org',
-	port: '13312',
-	user: 'jinrong_rw',
-	password: '0c414262412d5be1',
-	database: 'dbwww58com_jrportal'
+	host: 'ip',
+	port: '端口',
+	user: '账号',
+	password: '密码',
+	database: '数据库'
 });
 
 connection.connect();
